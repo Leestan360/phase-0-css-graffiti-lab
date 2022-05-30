@@ -1,1 +1,31 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+#tag-2 {
+    display: none;
+}
+
+.slick {
+    z-index: 5;
+}
+
+#tag-4 {
+    background-color: white;
+    z-index: 5;
+    display: block;
+}
+
+#tag-5.slick {
+    background: none;
+    z-index: 4;
+    display: block;
+}
+
+#tag-6 {
+    background: url(../images/tag-6.png) no-repeat;
+    background-size: cover;
+    z-index: 2;
+    display: block;
+}
